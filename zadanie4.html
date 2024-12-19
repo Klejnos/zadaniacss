@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">		<!-- Filip Klein 1P g1 06.12.2024 -->
+<link rel="shortcut icon" href=ikona_strony.gif>
+<title> Zadanie 3 - Klein </title>
+</head>
+<body>
+
+
+<h2><b>Sposoby podłączanie styli do strony (skrócone zestawienie).</b></h2>
+<p><b>1) <u>Zewnętrzny</u> akrusz stylów </b></p>
+<table border=0>
+<tr>
+<td>
+
+<textarea cols="60" rows="3" readonly>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head></textarea>
+
+
+</td>
+</tr>
+</table>
+
+
+<p><b>2) Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony. </b></p>
+<table border=0>
+<tr>
+<td>
+
+<textarea cols="75" rows="2" readonly>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+
+</td>
+</tr>
+</table>
+
+
+<p><b>3) <u>Wewnętrzny</u> arkusz stylów. </b></p>
+<table border=0>
+<tr>
+<td>
+
+<textarea cols="60" rows="7" readonly>
+<head>
+  <style type="text/css">
+	selektor1 { cecha: wartość; cecha2: wartość2... }
+	selektor2 { cecha: wartość; cecha2: wartość2... }
+  </style>
+</head>
+</textarea>
+
+</td>
+</tr>
+</table>
+
+
+<p><b>4) <u>Alternatywny</u> arkusz stylów. </b></p>
+<table border=0>
+<tr>
+<td>
+
+<textarea cols="83" rows="6" readonly>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+
+</td>
+</tr>
+</table>
+
+
+<p><b>5) <u>Import</u> arkusza stylów </b></p>
+<table border=0>
+<tr>
+<td>
+
+<textarea cols="60" rows="4" readonly>
+<style type="text/css">
+	@import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+
+</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>
