@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	<!-- Filip Klein 1P g1 20.12.2024 -->
+<title> Zadanie 8</title>
+</head>
+<body>
+<ol type=1 start=1>
+
+<h1><li>Gdzie jest wstawiany wewnętrzny arkusz stylów?</h1>
+<p>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>)</p>
+
+<h1><li>Składnia teoretyczna (w ramce, konieczne wcięcia)?</h1>
+<textarea cols="55" rows="12" readonly>
+<head>
+	(...)
+   <style type="text/css">
+   /* <![CDATA[ */
+	selektor1 { cecha: wartość; cecha2: wartość2... }
+	selektor2 { cecha: wartość; cecha2: wartość2... }
+ 	(...)
+   /* ]]> */
+   </style>
+	(...)
+</head>
+</textarea>
+
+
+<h1><li>Jakie mogą być selektory?</h1>
+<p>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne</p>
+
+<h1><li>Jakie mogą być cechy i wartości?</h1>
+<p>Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach). Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu</p>
+
+</ol>
+</body>
+</html>
