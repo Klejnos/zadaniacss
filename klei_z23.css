@@ -1,0 +1,26 @@
+p#pogrubienie_klein{
+	font-size: 30px;
+	color: #855ACB;
+}
+p#pochylona_klein{
+	font-size: 35pt;
+	color: #E9BE67;
+}
+p#index_gorny_klein{
+	font-size: 10mm; 
+	color: #998C17;
+}
+p#index_dolny_klein{
+	font-size: 15mm;
+	color: rgb(21%,94%,87%);
+}
+p#mono_klein{
+	font-size: 40px;
+	color: #19DC67;
+}
+p#powiekszenie_klein{
+	color: #533C99;
+}
+p#pomniejszenie_klein{
+	color: rgb(72%,63%,21%);
+}
