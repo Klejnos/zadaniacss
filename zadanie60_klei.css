@@ -1,0 +1,19 @@
+div{
+    background-color: green;
+    width: 613px;
+}
+#blok1_klein:hover{
+    background-color: blue;
+    font-size: 19mm;
+}
+#blok2_klein:hover{
+    background-color: lightgreen;
+    font-size: 19mm;
+}
+#blok3_klein:hover{
+    background-color: red;
+    font-size: 19mm;
+}
+/*Filip Klein*/
+/*hover powoduje zmiany pewnych elementów po najechaniu na nie
+urządzeniem wskazującym*/
