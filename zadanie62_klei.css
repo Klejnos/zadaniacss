@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(192, 192, 192);
+}
+p{
+    color: rgb(255, 165, 0);
+    font-size: 6mm;
+}
+p:lang(pl){
+    color: rgb(144, 238, 144);
+    font-size: 7mm;
+}
+p:lang(en){
+    color: rgb(255, 215, 0);
+    font-size: 11mm;
+}
